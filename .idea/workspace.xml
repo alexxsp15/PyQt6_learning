@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonQt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChangeWinTitle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConnectedWingets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirstWindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWindow2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OneShotApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoringData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowPushButton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_signal.py" afterDir="false" />
-    </list>
+    <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +43,8 @@
     "Python.first_signal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,6 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1750335824948</updated>
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <option name="closed" value="true" />
+      <created>1751280317094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751280317094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
 </project>
