@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok" />
+    <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChangeWinTitle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectedWingets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstWindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneShotApp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoringData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowPushButton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_signal.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexxsp15&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alexxsp15/PyQt6_learning.git&quot;,
+    &quot;accountId&quot;: &quot;adf7d402-cdaa-48f0-bc27-24270998bcce&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -33,14 +55,32 @@
   "keyToString": {
     "Python.ButtonOpensWindow.executor": "Run",
     "Python.ChangeWinTitle.executor": "Run",
+    "Python.CheckBox.executor": "Run",
+    "Python.ComboBox.executor": "Run",
     "Python.ConnectedWingets.executor": "Run",
+    "Python.Dial.executor": "Run",
+    "Python.Example1.executor": "Run",
     "Python.FirstWindow.executor": "Run",
+    "Python.GrindLayout.executor": "Run",
+    "Python.HBoxLayout.executor": "Run",
+    "Python.Label.executor": "Run",
+    "Python.LineEdit.executor": "Run",
+    "Python.ListWidget.executor": "Run",
+    "Python.LotsOfWidgets.executor": "Run",
     "Python.MainWindow2.executor": "Run",
     "Python.MouseEvents.executor": "Run",
+    "Python.NestingLayouts.executor": "Run",
     "Python.OneShotApp.executor": "Run",
+    "Python.Photo1.executor": "Run",
+    "Python.Slider.executor": "Run",
+    "Python.SpinBox.executor": "Run",
+    "Python.StackedLayout.executor": "Run",
     "Python.StoringData.executor": "Run",
+    "Python.VBoxLayout.executor": "Run",
     "Python.WindowPushButton.executor": "Run",
     "Python.first_signal.executor": "Run",
+    "Python.idk.executor": "Run",
+    "Python.ІефслувДфнщге.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -49,6 +89,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\pycharm_study\PythonQt\photo1" />
       <recent name="C:\pycharm_study\PythonQt" />
     </key>
   </component>
@@ -76,8 +117,27 @@
       <option name="project" value="LOCAL" />
       <updated>1751280317094</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <option name="closed" value="true" />
+      <created>1751280868953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751280868954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
