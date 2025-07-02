@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/layouts/Example 1.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/Example 1.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChangeWinTitle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectedWingets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstWindow.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneShotApp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoringData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowPushButton.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_signal.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +53,8 @@
     "Python.ComboBox.executor": "Run",
     "Python.ConnectedWingets.executor": "Run",
     "Python.Dial.executor": "Run",
+    "Python.Example 1.1.executor": "Run",
+    "Python.Example 1.2.executor": "Run",
     "Python.Example1.executor": "Run",
     "Python.FirstWindow.executor": "Run",
     "Python.GrindLayout.executor": "Run",
@@ -125,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751280868954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ok">
+      <option name="closed" value="true" />
+      <created>1751389939102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751389939102</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ok">
+      <option name="closed" value="true" />
+      <created>1751389957754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751389957754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
