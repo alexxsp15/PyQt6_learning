@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/StyleSheets/Example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window/DockWidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window/Ex1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,44 +45,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ButtonOpensWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ChangeWinTitle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CheckBox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ComboBox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ConnectedWingets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Dial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Example 1.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Example 1.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Example1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GrindLayout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HBoxLayout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Label.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LineEdit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ListWidget.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LotsOfWidgets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainWindow2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MouseEvents.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NestingLayouts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OneShotApp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Photo1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Slider.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SpinBox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StackedLayout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StoringData.executor&quot;: &quot;Run&quot;,
-    &quot;Python.VBoxLayout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WindowPushButton.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first_signal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.idk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ІефслувДфнщге.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1312.executor": "Run",
+    "Python.ButtonOpensWindow.executor": "Run",
+    "Python.ChangeWinTitle.executor": "Run",
+    "Python.CheckBox.executor": "Run",
+    "Python.ComboBox.executor": "Run",
+    "Python.ConnectedWingets.executor": "Run",
+    "Python.Dial.executor": "Run",
+    "Python.Ex1.executor": "Run",
+    "Python.Example 1.1.executor": "Run",
+    "Python.Example 1.2.executor": "Run",
+    "Python.Example1.executor": "Run",
+    "Python.FirstWindow.executor": "Run",
+    "Python.GrindLayout.executor": "Run",
+    "Python.HBoxLayout.executor": "Run",
+    "Python.Label.executor": "Run",
+    "Python.LineEdit.executor": "Run",
+    "Python.ListWidget.executor": "Run",
+    "Python.LotsOfWidgets.executor": "Run",
+    "Python.MainWindow2.executor": "Run",
+    "Python.MouseEvents.executor": "Run",
+    "Python.NestingLayouts.executor": "Run",
+    "Python.OneShotApp.executor": "Run",
+    "Python.Photo1.executor": "Run",
+    "Python.Slider.executor": "Run",
+    "Python.SpinBox.executor": "Run",
+    "Python.StackedLayout.executor": "Run",
+    "Python.StoringData.executor": "Run",
+    "Python.VBoxLayout.executor": "Run",
+    "Python.WindowPushButton.executor": "Run",
+    "Python.first_signal.executor": "Run",
+    "Python.idk.executor": "Run",
+    "Python.ІефслувДфнщге.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\pycharm_study\PythonQt\photo1" />
@@ -152,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751994051207</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ok">
+      <option name="closed" value="true" />
+      <created>1751994133984</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751994133984</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
