@@ -14,6 +14,7 @@ class MainWindow(QMainWindow):
 
 
         dock = QDockWidget()
+        dock.setAllowedAreas(Qt.DockWidgetArea.LeftDockWidgetArea)
 
         list = QListWidget()
 
@@ -22,15 +23,13 @@ class MainWindow(QMainWindow):
         dock.setWidget(list)
         lay.addWidget(dock)
 
-        num = 0
-
         widget = QWidget()
         widget.setLayout(lay)
         self.setCentralWidget(widget)
 
-    def butcl(self, num):
-        num = num + 1
-        list.append(num)
+    def butcl(self):
+        pass
+
 
 
 
