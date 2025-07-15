@@ -12,6 +12,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("TextChanger")
 
         self.lab = QLabel("Hello!")
+        self.lab.setAlignment(Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignBottom)
         self.btn = QPushButton("Change text")
 
         self.btn.pressed.connect(self.change_text)
