@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/LineChanged.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/PressMe!.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/QLineEdit2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/Buttons_Color_Changer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/GuessWord_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
     "Python.1312.executor": "Run",
     "Python.BTNColorChanger.executor": "Run",
     "Python.ButtonOpensWindow.executor": "Run",
+    "Python.Buttons_Color_Changer.executor": "Run",
     "Python.ChangeWinTitle.executor": "Run",
     "Python.CheckBox.executor": "Run",
     "Python.ClicksCounter.executor": "Run",
@@ -65,6 +65,7 @@
     "Python.Example1.executor": "Run",
     "Python.FirstWindow.executor": "Run",
     "Python.GrindLayout.executor": "Run",
+    "Python.GuessWord_1.executor": "Run",
     "Python.HBoxLayout.executor": "Run",
     "Python.Label.executor": "Run",
     "Python.LineChanged.executor": "Run",
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752574974527</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ok">
+      <option name="closed" value="true" />
+      <created>1752832740327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752832740329</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
