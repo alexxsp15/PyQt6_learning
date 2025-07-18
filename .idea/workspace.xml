@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/ColorChanger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/LineChanged.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/PressMe!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/QLineEdit2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1-Slots_Signals/TextChanger.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1-Slots_Signals/TextChanger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,7 @@
     "Python.GrindLayout.executor": "Run",
     "Python.HBoxLayout.executor": "Run",
     "Python.Label.executor": "Run",
+    "Python.LineChanged.executor": "Run",
     "Python.LineEdit.executor": "Run",
     "Python.ListWidget.executor": "Run",
     "Python.LotsOfWidgets.executor": "Run",
@@ -74,6 +76,9 @@
     "Python.NestingLayouts.executor": "Run",
     "Python.OneShotApp.executor": "Run",
     "Python.Photo1.executor": "Run",
+    "Python.PressMe!.executor": "Run",
+    "Python.QLineEdit2.executor": "Run",
+    "Python.RandomNumber.executor": "Run",
     "Python.Slider.executor": "Run",
     "Python.SpinBox.executor": "Run",
     "Python.StackedLayout.executor": "Run",
@@ -184,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752514163746</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ok">
+      <option name="closed" value="true" />
+      <created>1752574974527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752574974527</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
