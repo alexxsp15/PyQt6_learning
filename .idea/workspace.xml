@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/Buttons_Color_Changer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/GuessWord_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/EachWidgetHasItsOwnClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/EventsGBTexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/MouseEvent1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1-Slots_Signals/GuessWord_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1-Slots_Signals/GuessWord_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,8 @@
     "Python.ConnectedWingets.executor": "Run",
     "Python.Dial.executor": "Run",
     "Python.DockWidget.executor": "Run",
+    "Python.EachWidgetHasItsOwnClass.executor": "Run",
+    "Python.EventsGBTexample.executor": "Run",
     "Python.Ex1.executor": "Run",
     "Python.Example 1.1.executor": "Run",
     "Python.Example 1.2.executor": "Run",
@@ -73,6 +77,7 @@
     "Python.ListWidget.executor": "Run",
     "Python.LotsOfWidgets.executor": "Run",
     "Python.MainWindow2.executor": "Run",
+    "Python.MouseEvent1.executor": "Run",
     "Python.MouseEvents.executor": "Run",
     "Python.NestingLayouts.executor": "Run",
     "Python.OneShotApp.executor": "Run",
@@ -206,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752832740329</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ok">
+      <option name="closed" value="true" />
+      <created>1752860403590</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752860403590</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

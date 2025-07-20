@@ -2,29 +2,39 @@ import sys
 from PyQt6.QtCore import Qt, pyqtSignal, QObject
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QPushButton, QLineEdit, QLabel,
-    QHBoxLayout, QVBoxLayout, QWidget
+    QVBoxLayout, QWidget
 )
 
 class Word(QObject):
-
     CurrentProgress = pyqtSignal(list)
+
     def __init__(self):
         super().__init__()
-        self.wordlist = ['p','y', 't', 'h', 'o', 'n']
-        self.to_send_info = ['*', '*', '*', '*', '*', '*']
+        self.wordlist = ['p', 'y', 't', 'h', 'o', 'n']
+        self.to_send_info = ['*'] * len(self.wordlist)
         self.guesses_counter = 9
+        self.guessed_letters = set()
 
     def check_letter(self, letter):
-        self.guesses_counter = self.guesses_counter -1
         letter = letter.lower()
-        if letter in self.wordlist:
-            n = self.wordlist.index(letter)
-            self.to_send_info[n] = letter
+
+        if letter in self.guessed_letters:
+            self.CurrentProgress.emit(["Already guessed!"])
+            return
+
+        self.guessed_letters.add(letter)
+        found = False
+
+        for i, ch in enumerate(self.wordlist):
+            if ch == letter and self.to_send_info[i] == '*':
+                self.to_send_info[i] = letter
+                found = True
+
+        if found:
             self.CurrentProgress.emit(self.to_send_info)
         else:
-            self.CurrentProgress.emit(self.to_send_info)
-
-
+            self.guesses_counter -= 1
+            self.CurrentProgress.emit(["WRONG!"])
 
 
 class MainWindow(QMainWindow):
@@ -32,44 +42,68 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Guess my word!")
 
-        self.lab = QLabel("* * * * * *")
+        self.lab = QLabel(" ".join(['*'] * 6))
         self.lab.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.line = QLineEdit()
+        self.line.setMaxLength(1)
+        self.line.setPlaceholderText("Enter a letter...")
 
         self.btn = QPushButton("GUESS")
 
-        self.glab = QLabel("U have 9 guesses left!")
+        self.message = QLabel("")
+        self.message.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.glab = QLabel("You have 9 guesses left!")
+        self.glab.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.word = Word()
         self.word.CurrentProgress.connect(self.show_result)
         self.btn.clicked.connect(self.get_info)
 
-        mainlay = QVBoxLayout()
-        mainlay.addWidget(self.lab)
-        mainlay.addWidget(self.line)
-        mainlay.addWidget(self.btn)
-        mainlay.addWidget(self.glab)
+        layout = QVBoxLayout()
+        layout.addWidget(self.lab)
+        layout.addWidget(self.line)
+        layout.addWidget(self.btn)
+        layout.addWidget(self.message)
+        layout.addWidget(self.glab)
 
-        cener = QWidget()
-        cener.setLayout(mainlay)
-        self.setCentralWidget(cener)
+        container = QWidget()
+        container.setLayout(layout)
+        self.setCentralWidget(container)
 
     def get_info(self):
-        letter = self.line.text()
+        letter = self.line.text().strip()
+        self.line.clear()
+
+        if not letter.isalpha() or len(letter) != 1:
+            self.message.setText("Enter one letter only.")
+            return
+
         self.word.check_letter(letter)
 
-    def show_result(self, to_send_info):
-        counter = self.word.guesses_counter
-        if counter == 0:
-            self.glab.setText("You run out of guesses!")
-            self.line.clear()
-            self.line.setReadOnly()
-            self.lab.setText(" ".join(self.word.wordlist))
+    def show_result(self, result):
+        if result == ["Already guessed!"]:
+            self.message.setText("You already guessed that letter.")
+        elif result == ["WRONG!"]:
+            self.message.setText("Wrong guess!")
         else:
-            result = " ".join(self.word.to_send_info)
-            self.lab.setText(result)
-        self.glab.setText(f"{counter} guesses left!")
+            self.message.setText("Good job!")
+            self.lab.setText(" ".join(result))
+
+        guesses_left = self.word.guesses_counter
+        self.glab.setText(f"You have {guesses_left} guesses left.")
+
+        if guesses_left == 0:
+            self.message.setText("You ran out of guesses!")
+            self.lab.setText(" ".join(self.word.wordlist))
+            self.line.setReadOnly(True)
+            self.btn.setEnabled(False)
+
+        if "*" not in self.word.to_send_info:
+            self.message.setText("Congratulations! You guessed the word!")
+            self.line.setReadOnly(True)
+            self.btn.setEnabled(False)
 
 
 app = QApplication(sys.argv)
