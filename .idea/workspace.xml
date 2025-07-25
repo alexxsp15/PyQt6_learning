@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/EachWidgetHasItsOwnClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/EventsGBTexample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/MouseEvent1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MilestoneProjects/LogInWindow1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/CSS_EX1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/ChangeBackgroundColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/FirstLoginWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/GBT-ChangeBackgroundColor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1-Slots_Signals/GuessWord_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1-Slots_Signals/GuessWord_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1-Slots_Signals/EachWidgetHasItsOwnClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1-Slots_Signals/EachWidgetHasItsOwnClass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,8 @@
     "Python.BTNColorChanger.executor": "Run",
     "Python.ButtonOpensWindow.executor": "Run",
     "Python.Buttons_Color_Changer.executor": "Run",
+    "Python.CSS_EX1.executor": "Run",
+    "Python.ChangeBackgroundColor.executor": "Run",
     "Python.ChangeWinTitle.executor": "Run",
     "Python.CheckBox.executor": "Run",
     "Python.ClicksCounter.executor": "Run",
@@ -68,6 +72,7 @@
     "Python.Example 1.2.executor": "Run",
     "Python.Example1.executor": "Run",
     "Python.FirstWindow.executor": "Run",
+    "Python.GBT-ChangeBackgroundColor.executor": "Run",
     "Python.GrindLayout.executor": "Run",
     "Python.GuessWord_1.executor": "Run",
     "Python.HBoxLayout.executor": "Run",
@@ -75,6 +80,7 @@
     "Python.LineChanged.executor": "Run",
     "Python.LineEdit.executor": "Run",
     "Python.ListWidget.executor": "Run",
+    "Python.LogInWindow1.executor": "Run",
     "Python.LotsOfWidgets.executor": "Run",
     "Python.MainWindow2.executor": "Run",
     "Python.MouseEvent1.executor": "Run",
@@ -219,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752860403590</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ok">
+      <option name="closed" value="true" />
+      <created>1753022147626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753022147626</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
