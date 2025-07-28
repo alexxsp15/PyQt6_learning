@@ -42,6 +42,7 @@ class MainWindow(QMainWindow):
         font-size: 30px;
         }""")
         loginLine.setMaximumWidth(350)
+        loginLine.setPlaceholderText("login...")
 
         reglab = QLabel("Enter your password:")
         reglab.setStyleSheet("""
@@ -60,6 +61,8 @@ class MainWindow(QMainWindow):
                 font-size: 30px;
                 }""")
         passwordLine.setMaximumWidth(350)
+        passwordLine.setPlaceholderText("password..")
+        passwordLine.setEchoMode(QLineEdit.EchoMode.Password)
 
         button = QPushButton("OK")
         button.setStyleSheet("""

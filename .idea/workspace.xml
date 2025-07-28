@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/MilestoneProjects/LogInWindow1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/CSS_EX1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/ChangeBackgroundColor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/FirstLoginWindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1-Slots_Signals/CSS/GBT-ChangeBackgroundColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MilestoneProjects/LogInProcess1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/AreUOK_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/ColorsMessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/Ex1-CHAT_GBT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/fds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1-Slots_Signals/EachWidgetHasItsOwnClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1-Slots_Signals/EachWidgetHasItsOwnClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MilestoneProjects/LogInWindow1.py" beforeDir="false" afterPath="$PROJECT_DIR$/MilestoneProjects/LogInWindow1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1312.executor": "Run",
+    "Python.AreUOK_.executor": "Run",
     "Python.BTNColorChanger.executor": "Run",
     "Python.ButtonOpensWindow.executor": "Run",
     "Python.Buttons_Color_Changer.executor": "Run",
@@ -61,12 +62,14 @@
     "Python.CheckBox.executor": "Run",
     "Python.ClicksCounter.executor": "Run",
     "Python.ColorChanger.executor": "Run",
+    "Python.ColorsMessage.executor": "Run",
     "Python.ComboBox.executor": "Run",
     "Python.ConnectedWingets.executor": "Run",
     "Python.Dial.executor": "Run",
     "Python.DockWidget.executor": "Run",
     "Python.EachWidgetHasItsOwnClass.executor": "Run",
     "Python.EventsGBTexample.executor": "Run",
+    "Python.Ex1-CHAT_GBT.executor": "Run",
     "Python.Ex1.executor": "Run",
     "Python.Example 1.1.executor": "Run",
     "Python.Example 1.2.executor": "Run",
@@ -80,6 +83,7 @@
     "Python.LineChanged.executor": "Run",
     "Python.LineEdit.executor": "Run",
     "Python.ListWidget.executor": "Run",
+    "Python.LogInProcess1.executor": "Run",
     "Python.LogInWindow1.executor": "Run",
     "Python.LotsOfWidgets.executor": "Run",
     "Python.MainWindow2.executor": "Run",
@@ -98,6 +102,7 @@
     "Python.TextChanger.executor": "Run",
     "Python.VBoxLayout.executor": "Run",
     "Python.WindowPushButton.executor": "Run",
+    "Python.fds.executor": "Run",
     "Python.first_signal.executor": "Run",
     "Python.idk.executor": "Run",
     "Python.ІефслувДфнщге.executor": "Run",
@@ -233,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753022147626</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ok">
+      <option name="closed" value="true" />
+      <created>1753446354022</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753446354022</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
