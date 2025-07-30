@@ -1,54 +1,46 @@
 import sys
 from PyQt6.QtWidgets import (
-    QApplication, QMainWindow, QPushButton,
-    QDialog, QLabel, QVBoxLayout, QMessageBox
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QTabWidget
 )
 
-class MyDialog(QDialog):
-    def __init__(self):
-        super().__init__()
-
-        self.setWindowTitle("Це діалог")
-
-        self.label = QLabel("Привіт! Це діалогове вікно.")
-        self.ok_button = QPushButton("OK")
-        self.ok_button.clicked.connect(self.accept)
-
-        layout = QVBoxLayout()
-        layout.addWidget(self.label)
-        layout.addWidget(self.ok_button)
-        self.setLayout(layout)
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Головне вікно")
+        self.setWindowTitle("QTabWidget приклад")
+        self.setGeometry(100, 100, 500, 400)
 
-        self.button = QPushButton("Відкрити діалог")
-        self.button.clicked.connect(self.show_dialog)
+        # Створюємо QTabWidget
+        self.tabs = QTabWidget()
 
-        self.setCentralWidget(self.button)
+        # Вкладка 1
+        self.tab1 = QWidget()
+        self.tab1_layout = QVBoxLayout()
+        self.tab1_layout.addWidget(QLabel("Це вкладка 1"))
+        self.tab1.setLayout(self.tab1_layout)
+        self.tabs.addTab(self.tab1, "Головна")
 
-    def show_dialog(self):
-        dialog = MyDialog()
-        result = dialog.exec()
+        # Вкладка 2
+        self.tab2 = QWidget()
+        self.tab2_layout = QVBoxLayout()
+        self.tab2_layout.addWidget(QLabel("Це вкладка 2"))
+        self.tab2.setLayout(self.tab2_layout)
+        self.tabs.addTab(self.tab2, "Налаштування")
 
-        if result:
-            # ✅ Показуємо повідомлення
-            QMessageBox.information(
-                self,
-                "Результат",
-                "Ви натиснули OK у діалозі!"
-            )
-        else:
-            QMessageBox.warning(
-                self,
-                "Закрито",
-                "Діалог було закрито або скасовано."
-            )
+        # Вкладка 3
+        self.tab3 = QWidget()
+        self.tab3_layout = QVBoxLayout()
+        self.tab3_layout.addWidget(QLabel("Це вкладка 3"))
+        self.tab3.setLayout(self.tab3_layout)
+        self.tabs.addTab(self.tab3, "Про програму")
 
-app = QApplication(sys.argv)
-window = MainWindow()
-window.show()
-sys.exit(app.exec())
+        # Встановлюємо вкладки як центральний віджет
+        self.setCentralWidget(self.tabs)
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec())
