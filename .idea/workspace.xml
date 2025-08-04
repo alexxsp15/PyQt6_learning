@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/ASpinBox_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/QDockWidget_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,73 +43,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1312.executor": "Run",
-    "Python.ASpinBox_text.executor": "Run",
-    "Python.AreUOK_.executor": "Run",
-    "Python.BTNColorChanger.executor": "Run",
-    "Python.ButtonOpensWindow.executor": "Run",
-    "Python.Buttons_Color_Changer.executor": "Run",
-    "Python.CSS_EX1.executor": "Run",
-    "Python.ChangeBackgroundColor.executor": "Run",
-    "Python.ChangeWinTitle.executor": "Run",
-    "Python.CheckBox.executor": "Run",
-    "Python.ClicksCounter.executor": "Run",
-    "Python.ColorChanger.executor": "Run",
-    "Python.ColorsMessage.executor": "Run",
-    "Python.ComboBox.executor": "Run",
-    "Python.ConnectedWingets.executor": "Run",
-    "Python.Dial.executor": "Run",
-    "Python.DockWidget.executor": "Run",
-    "Python.EachWidgetHasItsOwnClass.executor": "Run",
-    "Python.EventsGBTexample.executor": "Run",
-    "Python.Ex1-CHAT_GBT.executor": "Run",
-    "Python.Ex1.executor": "Run",
-    "Python.Example 1.1.executor": "Run",
-    "Python.Example 1.2.executor": "Run",
-    "Python.Example1.executor": "Run",
-    "Python.FirstWindow.executor": "Run",
-    "Python.GBT-ChangeBackgroundColor.executor": "Run",
-    "Python.GrindLayout.executor": "Run",
-    "Python.GuessWord_1.executor": "Run",
-    "Python.HBoxLayout.executor": "Run",
-    "Python.IDKYET.executor": "Run",
-    "Python.Label.executor": "Run",
-    "Python.LineChanged.executor": "Run",
-    "Python.LineEdit.executor": "Run",
-    "Python.ListWidget.executor": "Run",
-    "Python.LogInProcess1.executor": "Run",
-    "Python.LogInWindow1.executor": "Run",
-    "Python.LotsOfWidgets.executor": "Run",
-    "Python.MainWindow2.executor": "Run",
-    "Python.MouseEvent1.executor": "Run",
-    "Python.MouseEvents.executor": "Run",
-    "Python.NestingLayouts.executor": "Run",
-    "Python.OneShotApp.executor": "Run",
-    "Python.Photo1.executor": "Run",
-    "Python.PressMe!.executor": "Run",
-    "Python.QDockWidget_test.executor": "Run",
-    "Python.QLineEdit2.executor": "Run",
-    "Python.QTabWidget.executor": "Run",
-    "Python.RandomNumber.executor": "Run",
-    "Python.Slider.executor": "Run",
-    "Python.SpinBox.executor": "Run",
-    "Python.StackedLayout.executor": "Run",
-    "Python.StoringData.executor": "Run",
-    "Python.TextChanger.executor": "Run",
-    "Python.VBoxLayout.executor": "Run",
-    "Python.WindowPushButton.executor": "Run",
-    "Python.fds.executor": "Run",
-    "Python.first_signal.executor": "Run",
-    "Python.idk.executor": "Run",
-    "Python.ІефслувДфнщге.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1312.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ASpinBox_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AreUOK_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BTNColorChanger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ButtonOpensWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Buttons_Color_Changer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CSS_EX1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ChangeBackgroundColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ChangeWinTitle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CheckBox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ClicksCounter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ColorChanger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ColorsMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComboBox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ConnectedWingets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DockWidget.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EachWidgetHasItsOwnClass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EventsGBTexample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ex1-CHAT_GBT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Example 1.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Example 1.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Example1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FirstWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GBT-ChangeBackgroundColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GrindLayout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GuessWord_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HBoxLayout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IDKYET.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Label.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LineChanged.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LineEdit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ListWidget.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LogInProcess1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LogInWindow1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LotsOfWidgets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainWindow2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MouseEvent1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MouseEvents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NestingLayouts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OneShotApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Photo1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PressMe!.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QDockWidget_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QLineEdit2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QTabWidget.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RandomNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Slider.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SpinBox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StackedLayout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StoringData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TextChanger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VBoxLayout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WindowPushButton.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fds.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first_signal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.idk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ІефслувДфнщге.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\pycharm_study\PythonQt\photo1" />
@@ -270,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753859623773</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ok">
+      <option name="closed" value="true" />
+      <created>1754313062140</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1754313062140</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
