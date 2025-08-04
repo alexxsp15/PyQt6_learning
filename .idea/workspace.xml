@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a5839d-6058-4c37-a2dc-96b1b9976439" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/QTabWidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/ASpinBox_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2-Windows_dialogs/QDockWidget_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MilestoneProjects/LogInProcess1.py" beforeDir="false" afterPath="$PROJECT_DIR$/MilestoneProjects/LogInProcess1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2-Windows_dialogs/Ex1-CHAT_GBT.py" beforeDir="false" afterPath="$PROJECT_DIR$/week2-Windows_dialogs/Ex1-CHAT_GBT.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1312.executor": "Run",
+    "Python.ASpinBox_text.executor": "Run",
     "Python.AreUOK_.executor": "Run",
     "Python.BTNColorChanger.executor": "Run",
     "Python.ButtonOpensWindow.executor": "Run",
@@ -76,6 +76,7 @@
     "Python.GrindLayout.executor": "Run",
     "Python.GuessWord_1.executor": "Run",
     "Python.HBoxLayout.executor": "Run",
+    "Python.IDKYET.executor": "Run",
     "Python.Label.executor": "Run",
     "Python.LineChanged.executor": "Run",
     "Python.LineEdit.executor": "Run",
@@ -90,6 +91,7 @@
     "Python.OneShotApp.executor": "Run",
     "Python.Photo1.executor": "Run",
     "Python.PressMe!.executor": "Run",
+    "Python.QDockWidget_test.executor": "Run",
     "Python.QLineEdit2.executor": "Run",
     "Python.QTabWidget.executor": "Run",
     "Python.RandomNumber.executor": "Run",
@@ -260,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753715042393</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ok">
+      <option name="closed" value="true" />
+      <created>1753859623773</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753859623773</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
